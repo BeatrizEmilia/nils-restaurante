@@ -200,6 +200,11 @@ app.get("/", (req, res) => {
   res.json({ status: "Bot do Nil's rodando! 🍛" });
 });
 
+// ─── VALIDAÇÃO DO WEBHOOK (Z-API faz GET antes de salvar) ────────
+app.get("/webhook", (req, res) => {
+  res.sendStatus(200);
+});
+
 // ─── INICIA SERVIDOR ─────────────────────────────────────────────
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
