@@ -13,6 +13,10 @@ Análise exploratória de dados de vendas de um restaurante de marmitas, com foc
 
 ---
 
+## 📊 Dashboard
+
+![Dashboard Restaurante Nil's](dashboard_nils.png)
+
 ## 📊 O que foi analisado?
 
 - 💰 **Faturamento mensal** ao longo de 2024
